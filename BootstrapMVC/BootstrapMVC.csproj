@@ -232,9 +232,7 @@
     <Content Include="Content\images\boardmembers\Yvette.jpg" />
     <Content Include="Content\images\gogreen_cleanup001.jpg" />
     <Content Include="Content\images\gogreen_cleanup002.jpg" />
-    <Content Include="Content\images\gogreen_cleanup003.jpg" />
     <Content Include="Content\images\gogreen_cleanup004.jpg" />
-    <Content Include="Content\images\gogreen_cleanup005.jpg" />
     <Content Include="Content\images\gogreen_cleanup006.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -251,6 +249,17 @@
     <Content Include="Content\documents\PTO_Membership_Form.pdf" />
     <Content Include="Content\documents\Role_of_PTO.pdf" />
     <Content Include="Content\documents\Volunteer_Form_To_Parent.pdf" />
+    <Content Include="Content\documents\2014Jogathonsummary.pdf" />
+    <Content Include="Content\documents\Bylaws.pdf" />
+    <Content Include="Content\documents\CheckRequest.pdf" />
+    <Content Include="Content\documents\CommunitySerivceHoursForm.pdf" />
+    <Content Include="Content\documents\DebitCardRecord.pdf" />
+    <Content Include="Content\documents\EventProposal.pdf" />
+    <Content Include="Content\documents\MonetaryPolicies.pdf" />
+    <Content Include="Content\documents\MoneyCount.pdf" />
+    <Content Include="Content\documents\PTONewsletterFeb2015.pdf" />
+    <Content Include="Content\documents\ReimbursementRequest.pdf" />
+    <Content Include="Content\documents\SubCommitteeFundingRequest.pdf" />
     <None Include="Properties\PublishProfiles\mhmspto_live_deploy.pubxml" />
     <None Include="Properties\PublishProfiles\mhmspto_stage_deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />

@@ -12,45 +12,54 @@
             <li data-target="#carousel-example-generic" data-slide-to="3"></li>
             <li data-target="#carousel-example-generic" data-slide-to="4"></li>
             <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-
+            <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="9"></li>
         </ol>
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
+                <img src="~/Content/images/FallCarnival01_20141031.jpg">
+            </div>
+            <div class="item">
+                <img src="~/Content/images/FallCarnival02_20141031.jpg">
+            </div>
+            <div class="item">
+                <img src="~/Content/images/FallCarnival03_20141031.jpg">
+            </div>
+            <div class="item">
+                <img src="~/Content/images/BakeSale01_20150213.jpg">
+            </div>
+            <div class="item">
+                <img src="~/Content/images/MovieNight01_20150227.jpg">
+            </div>
+            <div class="item">
+                <img src="~/Content/images/MovieNight02_20150227.jpg">
+            </div>
+            <div class="item">
                 <img src="~/Content/images/gogreen_cleanup001.jpg">
                 @*<div class="carousel-caption">
-                    This is image one.
-                </div>*@
+                This is image one.
+            </div>*@
             </div>
             <div class="item">
                 <img src="~/Content/images/gogreen_cleanup002.jpg">
                 @*<div class="carousel-caption">
-                    This is image two.
-                </div>*@
-            </div>
-            <div class="item">
-                <img src="~/Content/images/gogreen_cleanup003.jpg">
-                @*<div class="carousel-caption">
-                    This is image three.
-                </div>*@
+                This is image two.
+            </div>*@
             </div>
             <div class="item">
                 <img src="~/Content/images/gogreen_cleanup004.jpg">
                 @*<div class="carousel-caption">
-                    This is image four.
-                </div>*@
-            </div>
-            <div class="item">
-                <img src="~/Content/images/gogreen_cleanup005.jpg">
-                @*<div class="carousel-caption">
-                    This is image five.
-                </div>*@
+                This is image four.
+            </div>*@
             </div>
             <div class="item">
                 <img src="~/Content/images/gogreen_cleanup006.jpg">
                 @*<div class="carousel-caption">
-                    This is image six.
-                </div>*@
+                This is image six.
+            </div>*@
             </div>
             @*<p>GO GREEN COMMITTEE - GARDEN CLEAN UP</p>*@
         </div>
@@ -68,26 +77,40 @@
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Welcome!</h2>
+        <h2>Be a volunteer!</h2>
         <p style="text-align: justify;">
-            The Mission Hills Middle School PTO Board welcomes you at Mission Hills Middle School. We strive to enhance the academic and social experiences for students at MHMS, and build a strong sense of community by serving as a liaison between parents, staff, and students. We support school staff, help promote student self-esteem, and assist in the efforts to solve school needs through volunteering and funding.
-            Please check the "About" page to find out who the current board members are.
-        </p>
-        <p>@Html.ActionLink("Learn more", "About", "Home", new { @class = "btn btn-info btn-xs" })</p>
+            The Mission Hills Middle School Parent-Teacher Organization (PTO) strives to build a strong sense of community at MHMS. We support school staff, help promote student self-esteem, and assist in the efforts to solve school needs through volunteering and funding. Can you help? Email <a href="mailto:president@mhmspto.org">president@mhmspto.org</a>.
+            <ul>
+                <li>Crossing Guard: Assist our students during drop-off on Tamarack Drive.</li>
+                <li>Garden Compost: Help aerate the garden compost bin once a month.</li>
+            </ul>
+        <p>@Html.ActionLink("Learn more", "Events", "Home", new { @class = "btn btn-info btn-xs" })</p>
+        @*<h2>Welcome!</h2>
+            <p style="text-align: justify;">
+                The Mission Hills Middle School PTO Board welcomes you at Mission Hills Middle School. We strive to enhance the academic and social experiences for students at MHMS, and build a strong sense of community by serving as a liaison between parents, staff, and students. We support school staff, help promote student self-esteem, and assist in the efforts to solve school needs through volunteering and funding.
+                Please check the "About" page to find out who the current board members are.
+            </p>
+            <p>@Html.ActionLink("Learn more", "About", "Home", new { @class = "btn btn-info btn-xs" })</p>*@
     </div>
     <div class="col-md-4">
         <h2>Upcoming Events</h2>
-        <ul style="position: relative; left: -20px;">
-            @*<li><b>PTO General Meeting:</b> 6 p.m. Jan. 28  **THIS MEETING HAS BEEN CHANGED FROM JAN. 14.** Meetings are held in the school library.</li>
+        <p>
+            <ul style="position: relative; left: -20px;">
+                @*<li><b>PTO General Meeting:</b> 6 p.m. Jan. 28  **THIS MEETING HAS BEEN CHANGED FROM JAN. 14.** Meetings are held in the school library.</li>
             <li><b>Multi-Cultural Week:</b> Jan. 26–30</li>
             <li><b>Multi-Cultural Feast:</b> Jan. 30</li>*@
-            @*<li><b>Valentine Gram Pre-sale:</b> Jan. 26 – Feb. 6</li>*@
-            @*<li><b>Valentine Bake Sale:</b> Feb. 13</li>*@
-            <li><b>Movie Night:</b> Big Hero 6 at 6 p.m. on Friday, Feb. 27</li>
+                @*<li><b>Valentine Gram Pre-sale:</b> Jan. 26 – Feb. 6</li>*@
+                @*<li><b>Valentine Bake Sale:</b> Feb. 13</li>*@
+                @*<li><b>Movie Night:</b> Big Hero 6 at 6 p.m. on Friday, Feb. 27</li>
             <li><b>General PTO Meeting:</b> 6 p.m. March 25</li>
-            <li><b>MHMS PTO Day at the Movies:</b> March 27</li>
-        </ul>
-        Thank you to all the wonderful families who baked, donated, purchased, and volunteered for the bake sale!
+            <li><b>MHMS PTO Day at the Movies:</b> March 27</li>*@
+                <li><b>General PTO Meeting:</b> 6 p.m. March 25</li>
+                <li><b>MHMS PTO Day at the Movies:</b> March 27</li>
+                <li><b>MHMS Jogathon:</b> April 24. Volunteers needed!</li>
+                <li><b>MHMS Science Fair:</b> April 29</li>
+            </ul>
+            Thank you to all the wonderful families who baked, donated, purchased, and volunteered for the bake sale!
+        </p>
         <p>@Html.ActionLink("Learn more", "Events", "Home", new { @class = "btn btn-info btn-xs" })</p>
     </div>
     <div class="col-md-4">
@@ -99,11 +122,14 @@
             <b>Treasurer:</b> <a href="mailto: treasurer@mhmspto.org">Catherine Middleton-Hardie</a><br />
             <b>Staff Liaison:</b> <a href="mailto: staff@mhmspto.org">Ferishta Kulaly</a><br />
         </p>
+        <p>
+            <a href="https://www.facebook.com/pages/Mission-Hills-Middle-School/142642965791713" target="_blank"><img src="/Content/grafix/facebook.png" border="0" /> Visit our Facebook Page!</a>
+        </p>
         <p>@Html.ActionLink("Learn more", "About", "Home", new { @class = "btn btn-info btn-xs" })</p>
     </div>
 
 
-        @*
+    @*
         <div class="col-md-4">
             <div class="panel panel-primary">
                 <div class="panel-heading">
