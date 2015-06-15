@@ -197,6 +197,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\images\BakeSale01_20150213.jpg" />
     <Content Include="Content\images\boardmembers\allender.jpg" />
     <Content Include="Content\images\boardmembers\benson.jpg" />
     <Content Include="Content\images\boardmembers\boardmembers\allender.jpg" />
@@ -241,10 +242,18 @@
     <Content Include="Content\images\boardmembers\Shyno.jpg" />
     <Content Include="Content\images\boardmembers\Vargas.jpg" />
     <Content Include="Content\images\boardmembers\Yvette.jpg" />
+    <Content Include="Content\images\dads_at_muffins_with_moms_2015.jpg" />
+    <Content Include="Content\images\FallCarnival01_20141031.jpg" />
+    <Content Include="Content\images\FallCarnival02_20141031.jpg" />
+    <Content Include="Content\images\FallCarnival03_20141031.jpg" />
     <Content Include="Content\images\gogreen_cleanup001.jpg" />
     <Content Include="Content\images\gogreen_cleanup002.jpg" />
+    <Content Include="Content\images\gogreen_cleanup003_deleted.jpg" />
     <Content Include="Content\images\gogreen_cleanup004.jpg" />
+    <Content Include="Content\images\gogreen_cleanup005_deleted.jpg" />
     <Content Include="Content\images\gogreen_cleanup006.jpg" />
+    <Content Include="Content\images\MovieNight01_20150227.jpg" />
+    <Content Include="Content\images\MovieNight02_20150227.jpg" />
     <Content Include="Content\themes\bootstrap\bootstrap.css" />
     <Content Include="Content\themes\bootstrap\bootstrap.min.css" />
     <Content Include="Content\themes\bootstrap\variables.css" />
@@ -326,6 +335,15 @@
     <Content Include="Content\themes\bootstrap\bootstrap-filebutton.less" />
     <Content Include="Content\themes\bootstrap\bootstrap.less" />
     <Content Include="Content\themes\bootstrap\bootstrap.css.map" />
+    <Content Include="Content\documents\2015_2016_PTO_Calendar.pdf" />
+    <Content Include="Content\documents\2015_BudgetApproved.pdf" />
+    <Content Include="Content\documents\2015_BudgetApproved_ver2.pdf" />
+    <Content Include="Content\documents\EventProposal_old.pdf" />
+    <Content Include="Content\documents\May_Lunch_Menu.pdf" />
+    <Content Include="Content\documents\Supplykit.pdf" />
+    <Content Include="Content\documents\WelcomeBrochure.pdf" />
+    <Content Include="Content\documents\20150527_MHMS-PTO_general_meeting.pdf" />
+    <Content Include="Content\documents\MHMS PTO 2015_Budget18Feb2015 vs Actual 19May2015.pdf" />
     <None Include="Properties\PublishProfiles\mhmspto_live_deploy.pubxml" />
     <None Include="Properties\PublishProfiles\mhmspto_stage_deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -767,6 +785,8 @@
     <Content Include="Views\Shared\_NavBar.BootstrapEditorTemplates.cshtml" />
     <Content Include="Views\Shared\_Layout.BootstrapEditorTemplates.cshtml" />
     <Content Include="Views\BootstrapEditorTemplates\Index.cshtml" />
+    <Content Include="Views\Home\SupplyKit.cshtml" />
+    <Content Include="Views\Home\SupplyKitPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

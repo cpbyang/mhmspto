@@ -53,5 +53,17 @@ namespace BootstrapMVC.Controllers
 
             return View();
         }
+
+        public ActionResult SupplyKit()
+        {
+            ViewBag.Message = "Supplies Kit";
+
+            return View();
+        }
+
+        public PartialViewResult SupplyKitPartial()
+        {
+            return PartialView();
+        }
     }
 }
